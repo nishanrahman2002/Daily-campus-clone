@@ -17,7 +17,7 @@ export default function App() {
   const defaultHero: NewsItem = {
     id: "ru-cocaine-1",
     title: "কোকেন নিয়ে ক্লাসে ধরা পড়ল এক রাবি শিক্ষার্থী",
-    image: "/api/images/0.png",
+    image: "https://ais-pre-4q5cqasz32lf75bd6pd2sy-54222501514.asia-east1.run.app/api/images/0.png",
     excerpt: "রাজশাহী বিশ্ববিদ্যালয়ে (রাবি) মাদকদ্রব্যসহ এক শিক্ষার্থীকে আটক করার ঘটনা ঘটেছে। রবিবার সকালে বিশ্ববিদ্যালয়ের একটি বিভাগে ক্লাস চলাকালীন সময়ে এ ঘটনা ঘটে...",
     date: "২২ ফেব্রুয়ারি ২০২৬",
     content: `রাজশাহী বিশ্ববিদ্যালয়ে (রাবি) মাদকদ্রব্যসহ এক শিক্ষার্থীকে আটক করার ঘটনা ঘটেছে। রবিবার (২২ ফেব্রুয়ারি ২০২৬) সকালে বিশ্ববিদ্যালয়ের একটি বিভাগে ক্লাস চলাকালীন সময়ে এ ঘটনা ঘটে।
@@ -32,9 +32,9 @@ export default function App() {
   };
 
   const defaultSideNews: NewsItem[] = [
-    { id: "1", title: "ঢাকা বিশ্ববিদ্যালয়ের নতুন উপাচার্য হিসেবে আলোচনায় ৫ শিক্ষকের নাম", image: "https://picsum.photos/seed/du-vc/400/250", date: "২৩ ফেব্রুয়ারি ২০২৫" },
-    { id: "2", title: "গোপালগঞ্জ বিশ্ববিদ্যালয়ে ছাত্রদের দুই গ্রুপের দফায় দফায় সংঘর্ষ, আহত ২", image: "https://picsum.photos/seed/campus-fight/400/250", date: "২২ ফেব্রুয়ারি ২০২৫" },
-    { id: "3", title: "একই প্রশ্নে পরীক্ষা হলেও ভিন্ন গ্রেডে বেতন পাচ্ছেন কারিগরি কৃষি শিক্ষকরা, বৈষম্যের অভিযোগ", image: "https://picsum.photos/seed/teachers-salary/400/250", date: "২২ ফেব্রুয়ারি ২০২৫" },
+    { id: "1", title: "ঢাকা বিশ্ববিদ্যালয়ের নতুন উপাচার্য হিসেবে আলোচনায় ৫ শিক্ষকের নাম", image: "https://picsum.photos/seed/du-campus/400/250", date: "২৩ ফেব্রুয়ারি ২০২৫" },
+    { id: "2", title: "গোপালগঞ্জ বিশ্ববিদ্যালয়ে ছাত্রদের দুই গ্রুপের দফায় দফায় সংঘর্ষ, আহত ২", image: "https://picsum.photos/seed/student-clash/400/250", date: "২২ ফেব্রুয়ারি ২০২৫" },
+    { id: "3", title: "একই প্রশ্নে পরীক্ষা হলেও ভিন্ন গ্রেডে বেতন পাচ্ছেন কারিগরি কৃষি শিক্ষকরা, বৈষম্যের অভিযোগ", image: "https://picsum.photos/seed/teacher-protest/400/250", date: "২২ ফেব্রুয়ারি ২০২৫" },
   ];
 
   const [heroNews, setHeroNews] = useState<NewsItem>(defaultHero);
@@ -108,17 +108,17 @@ export default function App() {
   };
 
   const admissionNews: NewsItem[] = [
-    { id: "5", title: "২০ বিশ্ববিদ্যালয়ে ভর্তির প্রবেশপত্র ডাউনলোডের সুযোগ আর ৩ দিন", image: "https://picsum.photos/seed/gst-admission/600/350", date: "২২ ফেব্রুয়ারি ২০২৫" },
-    { id: "6", title: "রাবিতে ভর্তির বিষয় পছন্দক্রম শুরু আজ, শিক্ষার্থীদের জরুরি নির্দেশনা", image: "https://picsum.photos/seed/ru-admission/400/250", date: "২২ ফেব্রুয়ারি ২০২৫" },
-    { id: "7", title: "জবিতে চান্স পাওয়া শিক্ষার্থীদের ভর্তি শুরু হচ্ছে দুপুরে", image: "https://picsum.photos/seed/jnu-admission/400/250", date: "১৯ ফেব্রুয়ারি ২০২৫" },
-    { id: "8", title: "জবিতে পাঁচ ইউনিটের বিষয় প্রাপ্তদের ভর্তির তারিখ প্রকাশ", image: "https://picsum.photos/seed/exam-notice/400/250", date: "১৮ ফেব্রুয়ারি ২০২৫" },
+    { id: "5", title: "২০ বিশ্ববিদ্যালয়ে ভর্তির প্রবেশপত্র ডাউনলোডের সুযোগ আর ৩ দিন", image: "https://picsum.photos/seed/exam-hall/600/350", date: "২২ ফেব্রুয়ারি ২০২৫" },
+    { id: "6", title: "রাবিতে ভর্তির বিষয় পছন্দক্রম শুরু আজ, শিক্ষার্থীদের জরুরি নির্দেশনা", image: "https://picsum.photos/seed/varsity-gate/400/250", date: "২২ ফেব্রুয়ারি ২০২৫" },
+    { id: "7", title: "জবিতে চান্স পাওয়া শিক্ষার্থীদের ভর্তি শুরু হচ্ছে দুপুরে", image: "https://picsum.photos/seed/student-id/400/250", date: "১৯ ফেব্রুয়ারি ২০২৫" },
+    { id: "8", title: "জবিতে পাঁচ ইউনিটের বিষয় প্রাপ্তদের ভর্তির তারিখ প্রকাশ", image: "https://picsum.photos/seed/notice-board/400/250", date: "১৮ ফেব্রুয়ারি ২০২৫" },
   ];
 
   const educationAdminNews: NewsItem[] = [
-    { id: "9", title: "পরীক্ষার সময় আন্দোলনকারী শিক্ষকদের শাস্তি সংক্রান্ত সেই আদেশ বাতিল", image: "https://picsum.photos/seed/teachers-order/600/350", date: "২২ ফেব্রুয়ারি ২০২৫" },
-    { id: "10", title: "প্রাথমিক শিক্ষার মানোন্নয়নে বিশেষ গুরুত্ব দেওয়া প্রয়োজন : ড. মিলন", image: "https://picsum.photos/seed/primary-edu/400/250", date: "২২ ফেব্রুয়ারি ২০২৫" },
-    { id: "11", title: "পিটিআইএর সংশোধিত ছুটির তালিকা প্রকাশ, দেখুন এখানে", image: "https://picsum.photos/seed/calendar-notice/400/250", date: "২২ ফেব্রুয়ারি ২০২৫" },
-    { id: "12", title: "ই-রেজিস্ট্রেশনের সময় বাড়ল", image: "https://picsum.photos/seed/registration-form/400/250", date: "২২ ফেব্রুয়ারি ২০২৫" },
+    { id: "9", title: "পরীক্ষার সময় আন্দোলনকারী শিক্ষকদের শাস্তি সংক্রান্ত সেই আদেশ বাতিল", image: "https://picsum.photos/seed/admin-office/600/350", date: "২২ ফেব্রুয়ারি ২০২৫" },
+    { id: "10", title: "প্রাথমিক শিক্ষার মানোন্নয়নে বিশেষ গুরুত্ব দেওয়া প্রয়োজন : ড. মিলন", image: "https://picsum.photos/seed/classroom/400/250", date: "২২ ফেব্রুয়ারি ২০২৫" },
+    { id: "11", title: "পিটিআইএর সংশোধিত ছুটির তালিকা প্রকাশ, দেখুন এখানে", image: "https://picsum.photos/seed/calendar/400/250", date: "২২ ফেব্রুয়ারি ২০২৫" },
+    { id: "12", title: "ই-রেজিস্ট্রেশনের সময় বাড়ল", image: "https://picsum.photos/seed/computer-lab/400/250", date: "২২ ফেব্রুয়ারি ২০২৫" },
   ];
 
   return (
@@ -213,7 +213,7 @@ export default function App() {
             <div className="lg:col-span-7">
               <div className="relative group cursor-pointer">
                 <div className="aspect-video rounded-xl overflow-hidden relative">
-                  <img src="https://picsum.photos/seed/video-main/800/450" className="w-full h-full object-cover" alt="Video" />
+                  <img src="https://picsum.photos/seed/minister/800/450" className="w-full h-full object-cover" alt="Video" referrerPolicy="no-referrer" />
                   <div className="absolute inset-0 bg-black/30 flex items-center justify-center">
                     <div className="w-16 h-16 bg-red-600 rounded-full flex items-center justify-center text-white shadow-xl group-hover:scale-110 transition-transform">
                       <svg viewBox="0 0 24 24" fill="currentColor" className="w-8 h-8 ml-1">
@@ -229,7 +229,7 @@ export default function App() {
               {[1, 2, 3, 4].map(i => (
                 <div key={i} className="group cursor-pointer">
                   <div className="aspect-video rounded-lg overflow-hidden relative mb-2">
-                    <img src={`https://picsum.photos/seed/video-${i}/400/250`} className="w-full h-full object-cover" alt="Video" />
+                    <img src={`https://picsum.photos/seed/edu-vid-${i}/400/250`} className="w-full h-full object-cover" alt="Video" referrerPolicy="no-referrer" />
                     <div className="absolute inset-0 bg-black/20 flex items-center justify-center">
                       <div className="w-8 h-8 bg-red-600 rounded-full flex items-center justify-center text-white shadow-lg">
                         <svg viewBox="0 0 24 24" fill="currentColor" className="w-4 h-4 ml-0.5">
@@ -291,7 +291,7 @@ export default function App() {
             ].map((job, i) => (
               <div key={i} className={`${job.color} p-6 rounded-xl flex flex-col items-center text-center cursor-pointer hover:shadow-md transition-shadow`}>
                 <div className="w-16 h-16 bg-white dark:bg-gray-800 rounded-lg mb-4 flex items-center justify-center shadow-sm">
-                  <img src={`https://picsum.photos/seed/job-${i}/64/64`} alt="Logo" className="rounded" />
+                  <img src={`https://picsum.photos/seed/company-${i}/64/64`} alt="Logo" className="rounded" referrerPolicy="no-referrer" />
                 </div>
                 <h4 className="text-sm font-bold leading-tight dark:text-gray-200">{job.title}</h4>
               </div>
@@ -311,7 +311,7 @@ export default function App() {
             ].map((op, i) => (
               <div key={i} className="group cursor-pointer text-center">
                 <div className="aspect-square rounded-full overflow-hidden mb-4 border-4 border-gray-100 dark:border-gray-800 group-hover:border-blue-200 transition-colors">
-                  <img src={`https://picsum.photos/seed/author-${i}/300/300`} alt={op.author} className="w-full h-full object-cover" />
+                  <img src={`https://picsum.photos/seed/writer-${i}/300/300`} alt={op.author} className="w-full h-full object-cover" referrerPolicy="no-referrer" />
                 </div>
                 <h4 className="text-sm font-bold leading-tight mb-2 group-hover:text-blue-600 dark:text-gray-200">{op.name}</h4>
                 <p className="text-xs text-gray-500">{op.author}</p>
@@ -374,12 +374,12 @@ export default function App() {
             <SectionHeader title="ব্যক্তিত্ব" />
             <div className="space-y-4">
               {[
-                { title: "কোথায় আছেন ড. ইউনুস, যা জানা গেল", img: "https://picsum.photos/seed/p1/100/70" },
-                { title: "বিসিএসে প্রথম হওয়া ড. খলিলুর রহমান যেভাবে পররাষ্ট্রমন্ত্রী", img: "https://picsum.photos/seed/p2/100/70" },
-                { title: "হেলিকপ্টারের সঙ্গে নতুন শিক্ষামন্ত্রীর কী সম্পর্ক, কেন এত আলোচনা", img: "https://picsum.photos/seed/p3/100/70" }
+                { title: "কোথায় আছেন ড. ইউনুস, যা জানা গেল", img: "https://picsum.photos/seed/yunus/100/70" },
+                { title: "বিসিএসে প্রথম হওয়া ড. খলিলুর রহমান যেভাবে পররাষ্ট্রমন্ত্রী", img: "https://picsum.photos/seed/minister-khalil/100/70" },
+                { title: "হেলিকপ্টারের সঙ্গে নতুন শিক্ষামন্ত্রীর কী সম্পর্ক, কেন এত আলোচনা", img: "https://picsum.photos/seed/heli/100/70" }
               ].map((item, i) => (
                 <div key={i} className="flex gap-3 group cursor-pointer" onClick={() => handleNewsClick({ id: `p-${i}`, title: item.title, image: item.img } as any)}>
-                  <img src={item.img} className="w-20 h-14 object-cover rounded" alt="" />
+                  <img src={item.img} className="w-20 h-14 object-cover rounded" alt="" referrerPolicy="no-referrer" />
                   <h4 className="text-sm font-bold leading-tight group-hover:text-blue-600 dark:text-gray-300">{item.title}</h4>
                 </div>
               ))}
@@ -389,12 +389,12 @@ export default function App() {
             <SectionHeader title="বই ও গ্রন্থাগার" />
             <div className="space-y-4">
               {[
-                { title: "নিজ বইয়ের নামে ৭০ হাজার প্রস্তাব, চূড়ান্ত করে জানালেন শায়খ আহমাদুল্লাহ", img: "https://picsum.photos/seed/b1/100/70" },
-                { title: "১৩৬ বছর বয়সী অমদা গোবিন্দ পাবলিক লাইব্রেরিতে ৬৭ বছরের দুর্লভ সংগ্রহ", img: "https://picsum.photos/seed/b2/100/70" },
-                { title: "৮ম শ্রেণির নতুন বাংলা বই থেকে বাদ শেখ মুজিবের ৭ মার্চের ভাষণ", img: "https://picsum.photos/seed/b3/100/70" }
+                { title: "নিজ বইয়ের নামে ৭০ হাজার প্রস্তাব, চূড়ান্ত করে জানালেন শায়খ আহমাদুল্লাহ", img: "https://picsum.photos/seed/book-cover/100/70" },
+                { title: "১৩৬ বছর বয়সী অমদা গোবিন্দ পাবলিক লাইব্রেরিতে ৬৭ বছরের দুর্লভ সংগ্রহ", img: "https://picsum.photos/seed/library-old/100/70" },
+                { title: "৮ম শ্রেণির নতুন বাংলা বই থেকে বাদ শেখ মুজিবের ৭ মার্চের ভাষণ", img: "https://picsum.photos/seed/bangla-book/100/70" }
               ].map((item, i) => (
                 <div key={i} className="flex gap-3 group cursor-pointer" onClick={() => handleNewsClick({ id: `b-${i}`, title: item.title, image: item.img } as any)}>
-                  <img src={item.img} className="w-20 h-14 object-cover rounded" alt="" />
+                  <img src={item.img} className="w-20 h-14 object-cover rounded" alt="" referrerPolicy="no-referrer" />
                   <h4 className="text-sm font-bold leading-tight group-hover:text-blue-600 dark:text-gray-300">{item.title}</h4>
                 </div>
               ))}
@@ -404,12 +404,12 @@ export default function App() {
             <SectionHeader title="ধর্ম ও নৈতিকতা" />
             <div className="space-y-4">
               {[
-                { title: "ছাত্রদের আয়োজনে ঢাবিতে কোরআন তেলাওয়াত প্রতিযোগিতা শুরু ১ মার্চ", img: "https://picsum.photos/seed/r1/100/70" },
-                { title: "স্যানিটাইজার মেখে নামাজ পড়লে কি নামাজ হবে?", img: "https://picsum.photos/seed/r2/100/70" },
-                { title: "সর্বোচ্চ সওয়াব পেতে রমজানে করুন এই পাঁচ গুরুত্বপূর্ণ আমল", img: "https://picsum.photos/seed/r3/100/70" }
+                { title: "ছাত্রদের আয়োজনে ঢাবিতে কোরআন তেলাওয়াত প্রতিযোগিতা শুরু ১ মার্চ", img: "https://picsum.photos/seed/quran/100/70" },
+                { title: "স্যানিটাইজার মেখে নামাজ পড়লে কি নামাজ হবে?", img: "https://picsum.photos/seed/prayer/100/70" },
+                { title: "সর্বোচ্চ সওয়াব পেতে রমজানে করুন এই পাঁচ গুরুত্বপূর্ণ আমল", img: "https://picsum.photos/seed/ramadan/100/70" }
               ].map((item, i) => (
                 <div key={i} className="flex gap-3 group cursor-pointer" onClick={() => handleNewsClick({ id: `r-${i}`, title: item.title, image: item.img } as any)}>
-                  <img src={item.img} className="w-20 h-14 object-cover rounded" alt="" />
+                  <img src={item.img} className="w-20 h-14 object-cover rounded" alt="" referrerPolicy="no-referrer" />
                   <h4 className="text-sm font-bold leading-tight group-hover:text-blue-600 dark:text-gray-300">{item.title}</h4>
                 </div>
               ))}
@@ -432,7 +432,7 @@ export default function App() {
             </button>
             <div className="p-6 md:p-8">
               <div className="aspect-video rounded-xl overflow-hidden mb-6">
-                <img src={selectedNews.image} alt={selectedNews.title} className="w-full h-full object-cover" />
+                <img src={selectedNews.image} alt={selectedNews.title} className="w-full h-full object-cover" referrerPolicy="no-referrer" />
               </div>
               <h2 className="text-2xl md:text-3xl font-bold mb-4 dark:text-white">{selectedNews.title}</h2>
               

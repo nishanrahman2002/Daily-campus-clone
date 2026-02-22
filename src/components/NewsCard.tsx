@@ -53,6 +53,10 @@ export default function NewsCard({ item, variant = "vertical", onClick }: NewsCa
             src={item.image} 
             alt={item.title} 
             className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+            referrerPolicy="no-referrer"
+            onError={(e) => {
+              e.currentTarget.src = "https://picsum.photos/seed/ru-student/800/450";
+            }}
           />
           <div className="absolute top-3 right-3 opacity-0 group-hover:opacity-100 transition-opacity">
             <ShareButton />

@@ -40,6 +40,7 @@ export default function Navbar() {
             src="https://thedailycampus.com/assets/img/logo.png" 
             alt="The Daily Campus" 
             className={`h-12 md:h-16 ${isDark ? 'invert' : ''}`}
+            referrerPolicy="no-referrer"
             onError={(e) => {
               (e.target as HTMLImageElement).src = "https://placehold.co/200x60?text=THE+DAILY+CAMPUS";
             }}
@@ -120,6 +121,7 @@ export default function Navbar() {
               src="https://thedailycampus.com/assets/img/logo.png" 
               alt="Logo" 
               className={`h-10 ${isDark ? 'invert' : ''}`}
+              referrerPolicy="no-referrer"
             />
             <button onClick={() => setIsMobileMenuOpen(false)} className="p-2">
               <X size={28} />
